@@ -9,71 +9,127 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             line-height: 1.6;
-            background-color: #ffe6f2;
-            color: #120909f1;
+            background-color: #f1f8f1; /* Light green background */
+            color: #000000; /* Black text */
         }
         h1 {
-            color: #ad1456b3;
+            color: #101010; /* Pink text for title */
             text-align: center;
-            background-color: #f8bbd0;
+            background-color: #b2e3d5; /* Light pink header */
             padding: 15px;
             border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #d81b60b7;
+            color: #141414; /* Pink text for heading */
         }
         h3 {
-            color: #880e4f96;
+            color: #000000; /* Black text */
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background-color: #fff0f5;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #101110; /* Very light green */
+            box-shadow: 0 2px 5px rgba(30, 29, 29, 0.1);
         }
         table, th, td {
             border: 1px solid #ddd;
         }
         th {
-            background-color: #d81b606b;
-            color: #ffffff;
+            background-color: #f4e1e8; /* Light pink */
+            color: #000000; /* Black text */
         }
         td {
-            background-color: #fce4ec;
+            background-color: #f9f9f9; /* Light grey */
+            color: #000000; /* Black text */
         }
         th, td {
             padding: 10px;
             text-align: left;
         }
+
+        /* Module Styles */
         .module {
             margin-bottom: 30px;
-            background-color: #fce4ec;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         .module ul {
             margin: 10px 0;
             padding-left: 20px;
         }
         .module ul li {
             margin-bottom: 8px;
-            color: #090707ea;
+            color: #000000; /* Black text */
         }
+
+        /* Module 1 - Pink */
+        .module-1 {
+            background-color: #c4c0c0; /* Light pink */
+            border-left: 5px solid #a8e6cf; /* Light green left border */
+        }
+        .module-1 .view-code-btn {
+            background-color: #d7f3c7; /* Very light green */
+            color: #000000; /* Black text */
+        }
+        .module-1 .view-code-btn:hover {
+            background-color: #c2f2b2; /* Slightly darker green */
+        }
+
+        /* Module 2 - Green */
+        .module-2 {
+            background-color: #a8e6cf; /* Light green */
+            border-left: 5px solid #cac7c7; /* Light pink left border */
+        }
+        .module-2 .view-code-btn {
+            background-color: #a6a2a4; /* Light pink */
+            color: #000000; /* Black text */
+        }
+        .module-2 .view-code-btn:hover {
+            background-color: #9c9698; /* Slightly darker pink */
+        }
+
+        /* Module 3 - Pink */
+        .module-3 {
+            background-color: #cbbfbf; /* Light pink */
+            border-left: 5px solid #a8e6cf; /* Light green left border */
+        }
+        .module-3 .view-code-btn {
+            background-color: #d7f3c7; /* Very light green */
+            color: #000000; /* Black text */
+        }
+        .module-3 .view-code-btn:hover {
+            background-color: #a9e197; /* Slightly darker green */
+        }
+
+        /* Module 4 - Green */
+        .module-4 {
+            background-color: #a8e6cf; /* Light green */
+            border-left: 5px solid #d2c4c5; /* Light pink left border */
+        }
+        .module-4 .view-code-btn {
+            background-color: #b3acb0; /* Light pink */
+            color: #000000; /* Black text */
+        }
+        .module-4 .view-code-btn:hover {
+            background-color: #a59da0; /* Slightly darker pink */
+        }
+
         .view-code-btn {
             display: inline-block;
             margin: 10px 0;
             padding: 10px 20px;
-            background-color: #d81b60b7;
-            color: #ffffff;
+            color: #000000; /* Black text */
             text-decoration: none;
             border-radius: 5px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .view-code-btn:hover {
-            background-color: #ad1456b3;
+            color: #ffffff; /* White text on hover */
         }
     </style>
 </head>
@@ -88,20 +144,20 @@
                 <th>USN</th>
             </tr>
             <tr>
-                <td>Tejashwini Hosamani</td>
-                <td>02fe23bcs069</td>
+                <td style="color: #0f0f0f;">Tejashwini Hosamani</td> <!-- Green name -->
+                <td style="color: #0d0e0d;">02fe23bcs069</td> <!-- Green SRN -->
             </tr>
             <tr>
-                <td>Maruti Haval</td>
-                <td>02fe23bcs081</td>
+                <td style="color: #101110;">Maruti Haval</td> <!-- Green name -->
+                <td style="color: #0f0f0f;">02fe23bcs081</td> <!-- Green SRN -->
             </tr>
             <tr>
-                <td>Vishal Waghamare</td>
-                <td>02fe23bcs086</td>
+                <td style="color: #0c0c0c;">Vishal Waghamare</td> <!-- Green name -->
+                <td style="color: #090909;">02fe23bcs086</td> <!-- Green SRN -->
             </tr>
             <tr>
-                <td>Bhumika Nagarali</td>
-                <td>02fe23bcs076</td>
+                <td style="color: #131313;">Bhumika Nagarali</td> <!-- Green name -->
+                <td style="color: #090909;">02fe23bcs076</td> <!-- Green SRN -->
             </tr>
         </table>
     </section>
@@ -114,7 +170,7 @@
     <section>
         <h2>Modules</h2>
 
-        <div class="module">
+        <div class="module module-1">
             <h3>Module 1: User and Listing Management</h3>
             <ul>
                 <li><strong>Users:</strong> Buyers, Sellers, Administrators</li>
@@ -125,7 +181,7 @@
             <a href="module1_code.cpp" class="view-code-btn">View Code</a>
         </div>
 
-        <div class="module">
+        <div class="module module-2">
             <h3>Module 2: Search and Filter Module</h3>
             <ul>
                 <li><strong>Users:</strong> Buyers</li>
@@ -136,7 +192,7 @@
             <a href="module2_code.cpp" class="view-code-btn">View Code</a>
         </div>
 
-        <div class="module">
+        <div class="module module-3">
             <h3>Module 3: Pricing and Fraud Detection Module</h3>
             <ul>
                 <li><strong>Users:</strong> Buyers, Sellers</li>
@@ -147,7 +203,7 @@
             <a href="module3_code.cpp" class="view-code-btn">View Code</a>
         </div>
 
-        <div class="module">
+        <div class="module module-4">
             <h3>Module 4: Secure Payment & Dispute Management</h3>
             <ul>
                 <li><strong>Users:</strong> Buyers, Sellers, Administrators</li>
@@ -160,3 +216,4 @@
     </section>
 </body>
 </html>
+
